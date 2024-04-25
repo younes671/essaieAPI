@@ -24,7 +24,7 @@ var marker = L.marker([48.5348, 7.69545]).addTo(map);
 //     [51.503, -0.06],
 //     [51.51, -0.047]
 // ]).addTo(map);
-
+     
 // Lie un popup au marqueur avec un contenu spécifique et l'ouvre par défaut
 // marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
