@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ApiController!{% endblock %}
+
+{% block body %}
+<h1>Bornes</h1>
+
+<div class="users">
+    {% for borne in bornes.results %}
+    <div class="user">
+        <div class="top">
+            <div>
+                <h2> {{ borne.n_station }} <br> {{ borne.ad_station }}</h2>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+    <div id="map"></div>
+
+{% endblock %}
